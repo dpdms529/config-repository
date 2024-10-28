@@ -16,3 +16,7 @@ spring:
       max-create-connection-time: 2s
       initial-size: 5
       max-size: 10
+
+# 직접 구성한 설정 정보
+petclinic:
+  vet-service-uri: "http://localhost:8080"
